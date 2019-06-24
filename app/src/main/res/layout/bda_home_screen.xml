@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dp10"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_tariff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1) DashBoard Tariff Wise"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/text14"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_overall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2) DashBoard Overall"
+        android:layout_marginTop="@dimen/dp20"
+        android:textAlignment="textStart"
+        android:textSize="@dimen/text14"
+        android:textStyle="bold"/>
+</LinearLayout>

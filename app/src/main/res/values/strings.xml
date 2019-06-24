@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Hescom</string>
+    <string name="semi_colon">:</string>
+    <string name="company_details">Hubli Electricity Supply Company Ltd.(HESCOM)\nCorporate Office, Navanagar, Hubli (Karnataka)\n
+        Powered By-Transvision Software &amp; Data Solutions Pvt Ltd</string>
+    <string name="title">R-APDRP BIG DATA ANALYTICS\n REPORTING SYSTEM</string>
+
+    <string-array name="account_status">
+        <item>All</item>
+        <item>ACTIVE</item>
+        <item>INACTIVE</item>
+        <item>PERM DISCON</item>
+        <item>TEMP DISCON</item>
+        <item>NULL</item>
+    </string-array>
+
+    <string-array name="billed_status">
+        <item>All</item>
+        <item>BILLED</item>
+        <item>UNBILLED</item>
+        <item>ONLY_IN_OB_CB</item>
+        <item>NOT MAPPED</item>
+    </string-array>
+
+    <string-array name="payment_status">
+        <item>All</item>
+        <item>PAID</item>
+        <item>NOT PAID</item>
+    </string-array>
+</resources>

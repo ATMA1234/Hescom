@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hescom">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DashBoard_Overall" />
+        <activity android:name=".DashBoard_Tariff_Wise" />
+        <activity android:name=".HomeScreen" />
+        <activity android:name=".OBCBUnBilledCustomer4" />
+        <activity android:name=".OBCBUnBilledCustomer3" />
+        <activity android:name=".OBCBUnBilledCustomer2" />
+        <activity android:name=".OBCBUnBilledCustomer1" />
+        <activity android:name=".OBCBBilledCustomer4" />
+        <activity android:name=".OBCBBilledCustomer3" />
+        <activity android:name=".OBCBBilledCustomer2" />
+        <activity android:name=".OBCBBilledCustomer1" />
+        <activity android:name=".OBCBCustomer4" />
+        <activity android:name=".OBCBCustomer3" />
+        <activity android:name=".OBCBCustomer2" />
+        <activity android:name=".OBCBCustomer1" />
+        <activity android:name=".DashboardGraphs" />
+        <activity android:name=".HomeDashboard" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
